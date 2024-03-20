@@ -132,14 +132,17 @@ int parentesisBalanceados(char *cadena) {
         else{
             if (cadena[i] == ')'){
                 if (pop(P) == NULL){
-                    return 1;
-                  
+                    return 0;
                 }
-              
             }
-              
         }
-          
     }
-  return 0;
+    if (get_size(P) == 0){
+      return 1;
+      
+    }
+    else{
+      return 0;
+    }
+  
 }
