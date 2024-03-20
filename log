@@ -15,3 +15,14 @@ exercises.c:89:7: error: ‘cadena_balanceada’ defined but not used [-Werror=u
 cc1: all warnings being treated as errors
 Compilation failed
 61258bb
+Wed 20 Mar 2024 07:37:55 PM UTC: 
+ exercises.c | 27 +--------------------------
+ 1 file changed, 1 insertion(+), 26 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:89:11: error: expected ‘;’ before ‘:’ token
+   89 |   return 0:
+      |           ^
+      |           ;
+Compilation failed
+961e8e0
