@@ -138,7 +138,8 @@ int parentesisBalanceados(char *cadena) {
         }
     }
     if (pop(P) != NULL){
-        return 0;
+      return 0;
+      
     } 
   
     if (get_size(P) == 0){
@@ -148,6 +149,5 @@ int parentesisBalanceados(char *cadena) {
     else{
       return 0;
     }
-  return 1;
   
 }
