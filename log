@@ -60,3 +60,9 @@ exercises.c:51:9: error: ‘data’ undeclared (first use in this function)
 exercises.c:51:9: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 ea4e545
+Wed 20 Mar 2024 07:56:37 PM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  2|3
+total_score: 20/70
+f1e9aaa
