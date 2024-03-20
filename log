@@ -1,0 +1,17 @@
+Wed 20 Mar 2024 07:36:54 PM UTC: 
+ exercises.c | 24 ++++++++++++++++++++++++
+ 1 file changed, 24 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘cadena_balanceada’:
+exercises.c:90:21: error: implicit declaration of function ‘createStack’; did you mean ‘create_stack’? [-Werror=implicit-function-declaration]
+   90 |       Stack* pila = createStack();
+      |                     ^~~~~~~~~~~
+      |                     create_stack
+exercises.c:90:21: error: initialization of ‘Stack *’ {aka ‘List *’} from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+At top level:
+exercises.c:89:7: error: ‘cadena_balanceada’ defined but not used [-Werror=unused-function]
+   89 |   int cadena_balanceada(char* cadena) {
+      |       ^~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+61258bb
