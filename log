@@ -38,3 +38,14 @@ Wed 20 Mar 2024 07:52:01 PM UTC:
  tests:  1|4
 total_score: 10/70
 8c1c2bc
+Wed 20 Mar 2024 07:54:19 PM UTC: 
+ exercises.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:51:8: error: ‘data’ undeclared (first use in this function)
+   51 |   free(data);
+      |        ^~~~
+exercises.c:51:8: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+dd3edd0
