@@ -49,3 +49,14 @@ exercises.c:51:8: error: ‘data’ undeclared (first use in this function)
 exercises.c:51:8: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 dd3edd0
+Wed 20 Mar 2024 07:55:00 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:51:9: error: ‘data’ undeclared (first use in this function)
+   51 |   free(*data);
+      |         ^~~~
+exercises.c:51:9: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+ea4e545

@@ -48,7 +48,7 @@ List* crea_lista() {
        *data = i;
        pushBack(L, data);
    } 
-  free(data);
+  free(*data);
    return L;
 }
 
